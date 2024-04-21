@@ -1,0 +1,12 @@
+            - name: Website to APK Action
+  # You may pin to the exact commit or the version.
+  # uses: darkshredder/web-to-app-action@9d50797fa99bda3074797a2dc1ab04b49d92e635
+  uses: darkshredder/web-to-app-action@Latest
+  with:
+    # Path to build folder
+    build-folder-path: # optional, default is build
+    # Name of App
+    app-name: etch-a-scetch # optional, default is MyApp
+    # Path to output folder
+    output-folder-path: # optional, default is apk
+          
